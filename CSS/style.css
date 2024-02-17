@@ -1,0 +1,126 @@
+#main{
+    position: relative;
+    width: 100%;
+}
+
+.header{
+    position: relative;
+}
+
+.header-ads{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.header-ads_txt{
+    padding: 10px 250px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+}
+
+.sub-nav{
+
+}
+
+.nav-logo{
+    position: relative;
+    width: 15%;
+    border: 1px solid red;
+}
+
+.nav-logo_img{
+    width: 70%;
+    margin-left: 15px;
+    transform: translateY(50%);
+}
+
+.nav-menu {
+    position: relative;
+    width: 55%;
+    background-color: aquamarine;
+}
+
+.nav-ul1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-ul1 > .li1 {
+    list-style-type: none;
+    padding: 8.5px;
+    padding-left: 15px;
+}
+
+.nav-ul1 > .li1 > a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-ul1 > .li1 > a:hover{
+    text-decoration: underline;
+}
+
+.nav-check {
+    position: relative;
+    background-color: brown;
+    width: calc(100% - 15% - 55%);
+}
+
+.nav-check_ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-check_ulli{
+    list-style-type: none;
+    transform: translateY(35%);
+}
+
+.nav-check_img:hover{
+    cursor: pointer;
+}
+
+.notifice{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: brown;
+    text-align: center;
+    line-height: 100px;
+    top: 140px;
+    display: none;
+    animation: topondown 0.5s alternate ease;
+}
+
+@keyframes topondown {
+    0% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  #video-background {
+    margin-top: 105px;
+    width: 100%;
+  }
+
