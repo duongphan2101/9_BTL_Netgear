@@ -23,7 +23,20 @@ var textArray = [
 
 
   var listItem = document.getElementById('li_list');
-  var menu = document.getElementById('notice');
+  var menu = document.getElementById('sub-nav');
+
+  // Bắt sự kiện mouseover để hiển thị menu
+  listItem.addEventListener('mouseover', function () {
+    menu.style.display = 'block';
+  });
+
+  // Bắt sự kiện mouseout để ẩn menu
+  listItem.addEventListener('mouseout', function () {
+    menu.style.display = 'none';
+  });
+
+  var listItem = document.getElementById('sub-nav');
+  var menu = document.getElementById('sub-nav');
 
   // Bắt sự kiện mouseover để hiển thị menu
   listItem.addEventListener('mouseover', function () {

@@ -27,18 +27,13 @@
     position: fixed;
     width: 100%;
     display: flex;
-    background-color: bisque;
+    background-color: white;
     padding: 20px;
-}
-
-.sub-nav{
-
 }
 
 .nav-logo{
     position: relative;
     width: 15%;
-    border: 1px solid red;
 }
 
 .nav-logo_img{
@@ -50,7 +45,6 @@
 .nav-menu {
     position: relative;
     width: 55%;
-    background-color: aquamarine;
 }
 
 .nav-ul1{
@@ -78,7 +72,6 @@
 
 .nav-check {
     position: relative;
-    background-color: brown;
     width: calc(100% - 15% - 55%);
 }
 
@@ -98,29 +91,201 @@
     cursor: pointer;
 }
 
-.notifice{
+.subnav::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    margin-top: 4px;
+    z-index: 11;
+    display: none;
+}
+
+.subnav{
     position: absolute;
     left: 0;
+    z-index: 1;
     right: 0;
-    background-color: brown;
     text-align: center;
-    line-height: 100px;
-    top: 140px;
+    top: 135px;
     display: none;
-    animation: topondown 0.5s alternate ease;
+    background-color: rgba(241,240,240,.88);
+    animation: topondown 0.5s alternate backwards;
 }
 
 @keyframes topondown {
     0% {
-      transform: translateY(-10%);
+      transform: translateY(-5%);
     }
     100% {
       transform: translateY(0);
     }
   }
 
+  .subnav-content{
+    position: relative;
+    display: flex;
+  }
+
+  .subnav-right{
+    width: 60%;
+    background-color: white;
+  }
+
+  .subnav-right_top{
+    background-color: #f1f0f0;
+    border: 1px solid lightgray;
+  }
+
+  .subnav-right_top ul {
+    display: flex;
+    padding: 10px 20px;
+  }
+
+  .subnav-right_top ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .subnav-right_top ul li{
+    width: 33.33%;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .right-top_ul .right-top_ul_li:hover a,
+  .right_bottom_ul .right_bottom_ul_li:hover a,
+  .left_column_ul li a:hover{
+    color: rgb(28, 202, 202);
+    cursor: pointer;
+  }
+
+  .subnav-right_bottom{
+    position: relative;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .right_bottom-column{
+    position: relative;
+    width: 33.33%;
+    text-align: left;
+  }
+
+  .right_bottom-column-title::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 12px;
+    margin-top: 4px;
+    background-color: #009dd6;
+  }
+
+  .right_bottom-column-title{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .right_bottom_ul li{
+    text-align: left;
+    padding: 5px 10px;
+  }
+
+  .right_bottom_ul li a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .title2::before{
+    top: 135px;
+  }
+
+  .title3::before{
+    top: 72px;
+    background-color: brown;
+  }
+
+  .title2, .title3{
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .subnav-brand {
+    position: relative;
+    background-color: #f1f0f0;
+  }
+
+  .subnav-brand_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8.5px 0;
+  }
+
+  .subnav-brand_ul_li{
+    padding: 15px 0;
+    font-weight: 600;
+  }
+
+  .subnav-brand_ul_li a{
+    padding: 0 20px ;
+  }
+
+  /*that ra la right moi dung*/
+  .subnav-left{
+    position: relative;
+    display: flex;
+    width: calc(100% - 60%);
+    background-color: transparent;
+  }
+
+  .subnav-left_column {
+    width: 50%;
+    padding: 10px 20px;
+    text-align: left;
+  }
+
+  .left_column_title {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .left_column_ul {
+    padding-top: 10px;
+  }
+  .left_column_ul li {
+    padding: 5px 0;
+  }
+
+  .left_column_ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+
+
+
   #video-background {
-    margin-top: 105px;
+    margin-top: 100px;
     width: 100%;
   }
+
+
+
 
