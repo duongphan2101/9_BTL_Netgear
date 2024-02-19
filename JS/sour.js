@@ -47,3 +47,105 @@ var textArray = [
   listItem.addEventListener('mouseout', function () {
     menu.style.display = 'none';
   });
+
+
+
+
+  /*****************/
+  var listItem1 = document.getElementById('business-list');
+  var menu1 = document.getElementById('business-sub-nav');
+
+  // Bắt sự kiện mouseover để hiển thị menu
+  listItem1.addEventListener('mouseover', function () {
+    menu1.style.display = 'block';
+  });
+
+  // Bắt sự kiện mouseout để ẩn menu
+  listItem1.addEventListener('mouseout', function () {
+    menu1.style.display = 'none';
+  });
+
+  var listItem1 = document.getElementById('business-sub-nav');
+  var menu1 = document.getElementById('business-sub-nav');
+
+  // Bắt sự kiện mouseover để hiển thị menu
+  listItem1.addEventListener('mouseover', function () {
+    menu1.style.display = 'block';
+  });
+
+  // Bắt sự kiện mouseout để ẩn menu
+  listItem1.addEventListener('mouseout', function () {
+    menu1.style.display = 'none';
+  });
+  
+
+
+
+  /*****************/
+  var listItem2 = document.getElementById('av-list');
+  var menu2 = document.getElementById('AV-sub-nav');
+
+  // Bắt sự kiện mouseover để hiển thị menu
+  listItem2.addEventListener('mouseover', function () {
+    menu2.style.display = 'block';
+  });
+
+  // Bắt sự kiện mouseout để ẩn menu
+  listItem2.addEventListener('mouseout', function () {
+    menu2.style.display = 'none';
+  });
+
+  var listItem2 = document.getElementById('AV-sub-nav');
+  var menu2 = document.getElementById('AV-sub-nav');
+
+  // Bắt sự kiện mouseover để hiển thị menu
+  listItem2.addEventListener('mouseover', function () {
+    menu2.style.display = 'block';
+  });
+
+  // Bắt sự kiện mouseout để ẩn menu
+  listItem2.addEventListener('mouseout', function () {
+    menu2.style.display = 'none';
+  });
+
+
+  /************ */
+  var opensearch = document.getElementById('btn-open-search');
+  var modalsearch = document.getElementById('box-search-modal');
+  var closemodalsearch = document.getElementById('close-box-search-modal');
+
+  opensearch.onclick = function(){
+    modalsearch.style.display = "block";
+  };
+
+  closemodalsearch.onclick = function(){
+    modalsearch.style.display = "none";
+  };
+
+  window.onclick = function(event){
+    if(event.target == modalsearch){
+      modalsearch.style.display = "none";
+    }
+  };
+
+  var lg = document.getElementById('language');
+  var ul_lg = document.getElementById('ul-language');
+
+  lg.addEventListener('mouseover', function(){
+      ul_lg.style.display = "block";
+  });
+
+  lg.addEventListener('mouseout', function(){
+    ul_lg.style.display = "none";
+});
+
+var lg = document.getElementById('ul-language');
+var ul_lg = document.getElementById('ul-language');
+
+lg.addEventListener('mouseover', function(){
+    ul_lg.style.display = 'block';
+});
+
+lg.addEventListener('mouseout', function(){
+  ul_lg.style.display = 'none';
+});
