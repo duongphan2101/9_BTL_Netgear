@@ -14,14 +14,14 @@
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-transform: uppercase;
     width: 100%;
 }
 
 .header-ads_txt{
-    padding: 10px 250px;
+    padding: 10px 230px;
     font-size: 14px;
     color: white;
     text-decoration: none;
@@ -448,10 +448,11 @@
  .panel-on-header {
     position: absolute;
     height: 100px;
-    width: 1250px;
+    width: 1150px;
     background-color: rgb(255, 255, 255);
-    right: 20px;
-    top: 0px;
+    right: 0px;
+    top: 41px;
+    z-index: 1111;
  }
 
  .box-search {
@@ -624,6 +625,73 @@
     left: 0;
     width: 100%;
 }
+
+.box-grid_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 111;
+}
+
+.rowfiding {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.img-finding {
+    position: absolute;
+    width: 100%;
+}
+
+.finding-content {
+    position: absolute;
+    color: white;
+    top: 50px;
+    padding-left: 50px;
+}
+
+.grid-conten_title {
+    font-weight: 100;
+}
+
+.grid-content_hr {
+    padding: 15px 0;
+}
+
+.gird-content_btn {
+    padding: 15px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.after-fiding {
+    position: relative;
+    border: 1px solid red;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 300px;
+    margin-top: 500px;
+}
+
+.col-1 {
+    position: relative;
+    width: 48.5%;
+    /* height: 515px; */
+
+}
+
+.col-1_img {
+    position: absolute;
+    width: 100%;
+}
+
 
 
 
