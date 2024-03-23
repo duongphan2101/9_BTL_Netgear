@@ -451,7 +451,7 @@
     width: 1150px;
     background-color: rgb(255, 255, 255);
     right: 0px;
-    top: 41px;
+    top: 45px;
     z-index: 1111;
  }
 
@@ -594,55 +594,15 @@
     text-transform: uppercase;
 }
 
-.gird-2-col {
-    position: relative;
-    width: 100%;
-    background-color: antiquewhite;
-    display: grid;
-    color: white;
-    margin: 20px 0;
-}
-
-.gird-2-col:first-child {
-  padding-right: 20px;
-}
-
-.gird-2-col:last-child {
-  padding-left: 20px;
-}
-
-.box-gird {
-    position: relative;
-    width: 50%;
-    height: 610px;
-    grid-area: 1 / 2;
-    border: 1px solid red;
-}
-
-.gird_content_img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.box-grid_content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-wrap: wrap;
-    z-index: 111;
-}
-
 .rowfiding {
     position: relative;
+    margin: auto;
     margin-top: 15px;
     width: 100%;
 }
 
 .img-finding {
-    position: absolute;
+    /* position: relative; */
     width: 100%;
 }
 
@@ -658,11 +618,14 @@
 }
 
 .grid-content_hr {
-    padding: 15px 0;
+    height: 1px;
+    width: 250px;
+    border: 1px solid white;
+    margin: 15px 0;
 }
 
 .gird-content_btn {
-    padding: 15px;
+    padding: 15px 25px;
     text-transform: uppercase;
     outline: none;
     border: none;
@@ -670,29 +633,198 @@
     font-size: 18px;
 }
 
-.after-fiding {
+.after-fiding_box {
     position: relative;
-    border: 1px solid red;
-    width: 100%;
-    justify-content: space-between;
     display: flex;
-    height: 300px;
-    margin-top: 500px;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-between;
 }
 
-.col-1 {
+.after-finding-col {
     position: relative;
-    width: 48.5%;
-    /* height: 515px; */
-
+    width: 49%;
 }
 
 .col-1_img {
-    position: absolute;
     width: 100%;
 }
 
+.after-finding_content {
+  position: absolute;
+  padding: 40px;
+  top: 0;
+  color: white;
+}
 
+.after-font {
+    font-size: 18px;
+}
+
+.font-black {
+    color: black;
+}
+
+.row-list {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: auto;
+
+}
+
+.list-prod {
+    position: relative;
+    width: 20%;
+    text-align: center;
+}
+
+.prod-img {
+    width: 100%;
+}
+
+.prod-title {
+  padding-top: 15px;
+}
+
+.prod-sub {
+    padding: 15px;
+}
+
+.supercharge-content {
+  position: absolute;
+  background-color: white;
+  padding: 30px;
+  left: 40px;
+  top: 160px;
+  font-weight: 500;
+  opacity: .7;
+}
+
+.reason-link {
+    text-align: center;
+}
+
+.reason-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.reason-img_link {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+
+  .signup-content {
+      position: absolute;
+      top: 0;
+      padding: 40px 60px;
+      color: white;
+
+  }
+
+  .signup_title {
+      font-weight: 100;
+  }
+
+  .signup-inp {
+    display: block;
+    height: 60px;
+    font-size: 28px;
+    width: 560px;
+    background: none;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    color: white;
+    margin: 15px 0;
+  }
+
+  .sigup-txt {
+    padding-top: 50px;
+    font-size: 14px;
+  }
+
+  footer {
+    position: relative;
+    background-color: #2c262d;
+    color: white;
+  }
+
+  .screen-footer_col {
+    width: 20%;
+  }
+
+  .footer-col-hr {
+    border: 1px solid white;
+    width: 40%;
+  }
+
+  .screen-footer {
+    padding: 80px 0;
+  }
+
+  .screen-footer_right {
+    width: 40%;
+  }
+
+  .footer-col-title {
+    font-size: 14px;
+  }
+
+  .footer-col-li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+
+  .footer-col-ul {
+    padding-left: 0;
+  }
+
+  .footer-col-li {
+    padding: 8px 0;
+  }
+
+  .footer-right_none {
+      height: 70%;
+      width: 100%;
+  }
+
+  .screen-footer_right {
+    padding-left: 70px;
+  }
+
+  .footer-btn {
+    border-radius: 25px;
+    padding: 2px 10px;
+    margin-left: 15px;
+  }
+
+  .footer-inp_email {
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid white;
+    margin-top: 15px;
+    height: 25px;
+    width: 200px;
+  } 
+
+  .fi-footer_ul {
+    width: 100%;
+  }
+
+  .fi-footer_li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+  
 
 
 
