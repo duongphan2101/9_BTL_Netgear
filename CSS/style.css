@@ -27,6 +27,11 @@
     text-decoration: none;
 }
 
+.header-ads_txt a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav {
     position: relative;
     width: 100%;
@@ -217,11 +222,11 @@
   }
 
   .title2::before{
-    top: 135px;
+    top: 177px;
   }
 
   .title3::before{
-    top: 72px;
+    top: 110px;
     background-color: brown;
   }
 
@@ -292,19 +297,19 @@
  }
 
  .business-title2::before{
-    top: 135px;
+    top: 177px;
  }
 
  .business-title4::before{
-    top: 72px;
+    top: 110px;
 }
 
 .business-title5::before{
-    top: 244px;
+    top: 325px;
 }
 
 .business-title7::before{
-    top: 198px;
+    top: 245px;
 }
 
 .color, .AV_color {
@@ -313,7 +318,7 @@
  }
 
 .AV-title3::before {
-    top: 103px;
+    top: 143px;
  }
 
  .AV_title-befor::before {
