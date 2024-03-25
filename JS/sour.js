@@ -171,3 +171,11 @@ lg.addEventListener('mouseout', function(){
 function chuyenTrang(){
   window.location.href = "signin.html";
 };
+
+function chuyenTrangcreate(){
+  window.location.href = "createAcc.html";
+};
+
+function chualam(){
+  alert('Tao Thanh Cong');
+};
